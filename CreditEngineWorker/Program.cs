@@ -48,6 +48,10 @@ Log.Logger = new LoggerConfiguration()
         logFilePath,
         rollingInterval: RollingInterval.Day,
         outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} {Level:u3}] {Message:lj} {Properties:j}{NewLine}{Exception}")
+    .WriteTo.BetterStack(
+        sourceToken: "YvSaCxt1nTC88FyPecgaiq4R",
+        betterStackEndpoint: "https://s1596040.eu-nbg-2.betterstackdata.com"
+    )
     .CreateLogger();
 
 builder.Logging.ClearProviders();

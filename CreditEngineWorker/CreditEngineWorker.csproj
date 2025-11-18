@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-CreditEngineWorker-5b5c353d-37e7-4930-9d15-9954fa2e6cf1</UserSecretsId>
+    <RootNamespace>CreditEngineWorker</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
