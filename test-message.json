@@ -1,0 +1,19 @@
+{
+    "messageId": "msg-001",
+    "correlationId": "corr-001",
+    "creditRequest": {
+        "id": "req-001",
+        "customerId": "customer-123",
+        "amount": 5000.00,
+        "currency": "BRL",
+        "requestType": "personal_loan",
+        "metadata": {
+            "source": "web",
+            "campaign": "summer_2024"
+        },
+        "timestamp": "2024-01-15T10:30:00Z"
+    },
+    "retryCount": 0,
+    "maxRetries": 3,
+    "timestamp": "2024-01-15T10:30:00Z"
+}
